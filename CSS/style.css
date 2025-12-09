@@ -22,8 +22,8 @@ left: 0;
  background-repeat: no-repeat;
  filter: blur(12px);
  transform: scale(1.1);
- z-index:-1;
- transition: backgrounf-image 0.5s ease-in-out;
+ z-index:-3;
+ transition: background-image 0.5s ease-in-out;
 }
 
 .background-overlay {
