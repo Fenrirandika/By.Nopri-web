@@ -1,1 +1,76 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background:#ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100hv;
+  overflow-x: hidden;
+  position: relatives;
+}
+
+.page-content {
+  padding: 40px 10%;
+  z-index:10;
+  position: relative;
+}
+
+header {
+  text-align:center;
+  margin-bottom: 40px;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+header p {
+  font-size: 1.2rem;
+  opacity: 0.85;
+}
+
+nav a,
+.page-content a {
+  display: inline-block;
+  padding: 12px 22px;
+  margin: 15px 0;
+  background: rgba(255,255,255,0.12);
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  transition: 0.25s ease;
+}
+
+na a:hover
+.page-content a:hover {
+  background: rgba(255,255,255,0.25);
+  transform: translateY(-3px);
+}
+
+section {
+  margin: 50px 0;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+section p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .page-content {
+    padding: 30px 6%;
+  }
+  header h1 {
+    font-size:2.2rem;
+  }
+}
