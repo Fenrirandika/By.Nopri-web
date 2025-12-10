@@ -61,7 +61,7 @@ left: 0;
  background-position: center;
  background-size: contain;
  background-repeat: no-repeat;
- filter: blur(4px);
+ filter: blur(12px);
  transform: scale(1.1);
  z-index:-1;
  transition: background-image 0.5s ease-in-out;
@@ -130,7 +130,7 @@ font-size: 1.1rem;
   font-size: 2.2rem;
 
   .background-contain {
-filter: blur(4px);  
+filter: blur(12px);  
   }
   
  }
