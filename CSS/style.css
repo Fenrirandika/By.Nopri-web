@@ -126,8 +126,8 @@ nav a:hover,
 .page-content h2 {
  font-size: 2rem;
  margin-top: 18px;
- margin-bottom: 14px;
- line-height: 10;
+ margin-bottom: 10px;
+ line-height: 5;
 }
 
 .page-content p {
