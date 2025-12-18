@@ -170,4 +170,5 @@ transform: translateY (-6px);
 .page-content h1 {font-size: 2.2rem;}
 .page-content p {font-size: 1rem;}
 .background-contain {filter: blur(4px);}
+.project-link img {width: 100%;}
 }
