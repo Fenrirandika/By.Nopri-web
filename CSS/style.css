@@ -145,6 +145,11 @@ font-size: 1.1rem;
  transition: 0.25s ease;
 }
 
+.page-content ul {
+ list-style: none;
+ padding: 0;
+}
+
 .page-content a:not(.project-link):hover {
  background: rgba(255,255,255,0.18);
  letter-spacing: 0.5px;
