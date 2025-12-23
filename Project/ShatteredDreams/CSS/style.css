@@ -40,14 +40,14 @@ font-size: 1.4rem;
   color: rgba(255,255,255,0.75);
   margin: 14px 0;
   cursor: pointer;
-  transition: 0,3s ease;
+  transition: 0.3s ease;
   }
 
 /*Active/Hover*/
 
-.main-menu li:hover;
+.main-menu li:hover,
 .main-menu li.active {
-  color: ffffff;
+  color: #ffffff;
   letter-spacing: 2px;
   transform: translateX(8px);
 }
