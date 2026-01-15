@@ -7,7 +7,7 @@
 .bg {
   position:fixed;
   inset: 0;
-  background: url("../Assets/menu-bg.jpg") center/cover no-repeat;
+  background: url("../Assets/menu_menu_shattered_dreams.jpg") center/cover no-repeat;
   z-index: -3;
 }
 
