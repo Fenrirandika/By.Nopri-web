@@ -15,6 +15,7 @@ html, body{
   inset: 0;
   background: url("../main_menu_shattered_dreams.jpg") center/cover no-repeat;
   z-index: -3;
+  position: relative;
 }
 
 /*Dark cinematic overlay*/
